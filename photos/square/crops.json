@@ -1,0 +1,128 @@
+{
+ "omerza": {
+  "source_file": "originals/omerza_kaxe_noframe.png",
+  "face_box": [
+   78,
+   175,
+   562,
+   562
+  ],
+  "crop_box": [
+   -203,
+   0,
+   921,
+   1124
+  ],
+  "edge_padding_px": 203,
+  "native_square_px": 1124,
+  "print_ready_1.25in_300dpi": true
+ },
+ "campbell": {
+  "source_file": "originals/campbell_city.jpg",
+  "face_box": [
+   113,
+   71,
+   163,
+   163
+  ],
+  "crop_box": [
+   32,
+   6,
+   358,
+   332
+  ],
+  "edge_padding_px": 0,
+  "native_square_px": 326,
+  "print_ready_1.25in_300dpi": false
+ },
+ "forsman": {
+  "source_file": "originals/forsman_city.jpg",
+  "face_box": [
+   117,
+   46,
+   147,
+   147
+  ],
+  "crop_box": [
+   44,
+   0,
+   338,
+   294
+  ],
+  "edge_padding_px": 0,
+  "native_square_px": 294,
+  "print_ready_1.25in_300dpi": false
+ },
+ "zupec": {
+  "source_file": "originals/echo_council_forum_group.jpg",
+  "face_box": [
+   491,
+   39,
+   42,
+   42
+  ],
+  "crop_box": [
+   470,
+   22,
+   554,
+   106
+  ],
+  "edge_padding_px": 0,
+  "native_square_px": 84,
+  "print_ready_1.25in_300dpi": false
+ },
+ "hornstein": {
+  "source_file": "originals/hornstein_kaxe.jpg",
+  "face_box": [
+   159,
+   91,
+   531,
+   531
+  ],
+  "crop_box": [
+   -24,
+   0,
+   826,
+   850
+  ],
+  "edge_padding_px": 24,
+  "native_square_px": 850,
+  "print_ready_1.25in_300dpi": true
+ },
+ "kannas": {
+  "source_file": "originals/echo_school_forum_group.jpg",
+  "face_box": [
+   596,
+   19,
+   42,
+   42
+  ],
+  "crop_box": [
+   575,
+   2,
+   659,
+   86
+  ],
+  "edge_padding_px": 0,
+  "native_square_px": 84,
+  "print_ready_1.25in_300dpi": false
+ },
+ "weise": {
+  "source_file": "originals/echo_4day_08.jpg",
+  "face_box": [
+   96,
+   29,
+   52,
+   52
+  ],
+  "crop_box": [
+   70,
+   8,
+   174,
+   112
+  ],
+  "edge_padding_px": 0,
+  "native_square_px": 104,
+  "print_ready_1.25in_300dpi": false
+ }
+}

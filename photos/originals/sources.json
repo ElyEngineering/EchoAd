@@ -1,0 +1,232 @@
+{
+ "omerza": {
+  "name": "Heidi Omerza",
+  "source_page": "https://www.kaxe.org/2026-09-28/ely-mn-2026-election-guide",
+  "source_label": "KAXE, Ely 2026 Election Guide",
+  "image_url": "https://npr-brightspot.s3.amazonaws.com/04/d1/216bc53f42669402b5a56ef415cf/heidiomerza-ely.png",
+  "original_file": "originals/omerza_kaxe.png",
+  "credit": "KAXE / contributed by candidate",
+  "rights": "Candidate-contributed photo published by KAXE; get candidate/KAXE OK for print",
+  "identity_check": "KAXE alt text names Heidi Omerza; alt portrait on City of Ely council page (originals/omerza_city.jpg)",
+  "note": "Source is a phone screenshot with black bars; omerza_kaxe_noframe.png is the same image with the top bar trimmed",
+  "original_px": [
+   1080,
+   1920
+  ],
+  "crop": "photos/square/omerza.jpg",
+  "crop_color": "photos/square/omerza_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   -203,
+   0,
+   921,
+   1124
+  ],
+  "native_crop_px": 1124,
+  "print_ready_1.25in_at_300dpi": true
+ },
+ "campbell": {
+  "name": "Angela Campbell",
+  "source_page": "https://www.ely.mn.us/council",
+  "source_label": "City of Ely, Mayor & Council",
+  "image_url": "https://www.ely.mn.us/vertical/Sites/%7B487F0A5E-BE52-4CAD-977F-7436EDEE4F85%7D/uploads/Campbell-Picture_Web.jpg",
+  "original_file": "originals/campbell_city.jpg",
+  "credit": "City of Ely",
+  "rights": "Official city portrait; ask City of Ely / candidate for a full-res file",
+  "identity_check": "Captioned on city council page; matches Echo forum photo seat behind ANGELA CAMPBELL name tent",
+  "original_px": [
+   400,
+   432
+  ],
+  "crop": "photos/square/campbell.jpg",
+  "crop_color": "photos/square/campbell_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   32,
+   6,
+   358,
+   332
+  ],
+  "native_crop_px": 326,
+  "print_ready_1.25in_at_300dpi": false
+ },
+ "forsman": {
+  "name": "Al Forsman",
+  "source_page": "https://www.ely.mn.us/council",
+  "source_label": "City of Ely, Mayor & Council",
+  "image_url": "https://www.ely.mn.us/vertical/Sites/%7B487F0A5E-BE52-4CAD-977F-7436EDEE4F85%7D/uploads/Al-Forsman_Web.JPG",
+  "original_file": "originals/forsman_city.jpg",
+  "credit": "City of Ely",
+  "rights": "Official city portrait; higher-res selfie also on KAXE (originals/forsman_kaxe.jpg, 1650x1710)",
+  "identity_check": "Captioned Al Forsman on city council page",
+  "original_px": [
+   400,
+   418
+  ],
+  "crop": "photos/square/forsman.jpg",
+  "crop_color": "photos/square/forsman_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   44,
+   0,
+   338,
+   294
+  ],
+  "native_crop_px": 294,
+  "print_ready_1.25in_at_300dpi": false
+ },
+ "zupec": {
+  "name": "Mark Zupek (ballot: Mark Zupec)",
+  "source_page": "https://www.elyecho.com/article/5142,ely-city-council-candidates-talk-taxes-community-and-visions-for-the-future",
+  "source_label": "Ely Echo, council candidate forum",
+  "image_url": "https://static2.elyecho.com/data/wysiwig/09-17-2026-eec-zip/Ar00301014.jpg",
+  "original_file": "originals/echo_council_forum_group.jpg",
+  "credit": "Ely Echo",
+  "rights": "Ely Echo news photo; needs Ely Echo permission (and they likely have the full-res original)",
+  "identity_check": "4th from left, seated behind MARK ZUPEC name tent; caption lists him 4th",
+  "note": "Profile view cropped from group shot; face ~40 px native",
+  "original_px": [
+   671,
+   155
+  ],
+  "crop": "photos/square/zupec.jpg",
+  "crop_color": "photos/square/zupec_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   470,
+   22,
+   554,
+   106
+  ],
+  "native_crop_px": 84,
+  "print_ready_1.25in_at_300dpi": false
+ },
+ "hornstein": {
+  "name": "Steve Hornstein",
+  "source_page": "https://www.kaxe.org/2026-09-30/ely-school-district-mn-2026-election-guide",
+  "source_label": "KAXE, Ely School District 2026 Election Guide",
+  "image_url": "https://npr-brightspot.s3.amazonaws.com/9c/b7/f14399474f73b4d87eeebd918566/steve-hornstein-elyschool.JPG",
+  "original_file": "originals/hornstein_kaxe.jpg",
+  "credit": "KAXE / contributed by candidate",
+  "rights": "Candidate-contributed photo published by KAXE",
+  "identity_check": "KAXE alt text; bearded (matches Levi), and matches leftmost bearded man in Echo school forum photo",
+  "original_px": [
+   826,
+   882
+  ],
+  "crop": "photos/square/hornstein.jpg",
+  "crop_color": "photos/square/hornstein_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   -24,
+   0,
+   826,
+   850
+  ],
+  "native_crop_px": 850,
+  "print_ready_1.25in_at_300dpi": true
+ },
+ "kannas": {
+  "name": "John Kannas",
+  "source_page": "https://www.elyecho.com/article/5206,school-board-candidates-discuss-ai-pseo-and-more-at-wednesday-s-forum",
+  "source_label": "Ely Echo, school board forum (photo by Chris Ellerbroek)",
+  "image_url": "https://static2.elyecho.com/data/wysiwig/10-01-2026-eec-zip/Ar00104011.jpg",
+  "original_file": "originals/echo_school_forum_group.jpg",
+  "credit": "Chris Ellerbroek / Ely Echo",
+  "rights": "Ely Echo news photo; needs Ely Echo permission",
+  "identity_check": "Caption lists left-to-right Hornstein, Westlund, McLinn-Belehar, Kingery, Kannas; rightmost man, clean-shaven (matches Levi: no beard)",
+  "note": "Cropped from group shot; face ~40 px native",
+  "original_px": [
+   670,
+   133
+  ],
+  "crop": "photos/square/kannas.jpg",
+  "crop_color": "photos/square/kannas_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   575,
+   2,
+   659,
+   86
+  ],
+  "native_crop_px": 84,
+  "print_ready_1.25in_at_300dpi": false
+ },
+ "weise": {
+  "name": "Joe Weise",
+  "source_page": "https://www.elyecho.com/article/4435,four-day-week-approved",
+  "source_label": "Ely Echo, \"Four-day week approved\"",
+  "image_url": "https://static2.elyecho.com/data/wysiwig/04-16-2026-eec-zip/Ar00102008.jpg",
+  "original_file": "originals/echo_4day_08.jpg",
+  "credit": "Ely Echo",
+  "rights": "Ely Echo news photo; needs Ely Echo permission",
+  "identity_check": "Caption \"Joe Weise spoke to the school board. Sheila Angus talks to the board.\" with 2 photos: this man (bearded, cap) and a woman; bearded matches Levi",
+  "note": "Profile view in ball cap; face ~50 px native",
+  "original_px": [
+   221,
+   252
+  ],
+  "crop": "photos/square/weise.jpg",
+  "crop_color": "photos/square/weise_color.jpg",
+  "crop_px": [
+   1200,
+   1200
+  ],
+  "crop_box_in_original": [
+   70,
+   8,
+   174,
+   112
+  ],
+  "native_crop_px": 104,
+  "print_ready_1.25in_at_300dpi": false
+ },
+ "canoe_banner": {
+  "name": "Canoe by Section Twelve Lake",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Canoe_by_Section_Twelve_Lake.jpg",
+  "source_label": "Wikimedia Commons",
+  "credit": "Daniel Ziegler",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "original_file": "originals/canoe_section_twelve_lake.jpg",
+  "original_px": [
+   3456,
+   5184
+  ],
+  "derived": "photos/canoe_banner.jpg",
+  "derived_px": [
+   2400,
+   1041
+  ],
+  "crop_box_in_original": [
+   0,
+   3200,
+   3456,
+   4700
+  ],
+  "print_ready": true,
+  "note": "Superior National Forest / Boundary Waters, taken 15 May 2020. Attribution required; derivative crop shares CC BY-SA 4.0."
+ },
+ "_extra_originals": {
+  "originals/omerza_city.jpg": "Heidi Omerza, City of Ely council page (400x503), alternate",
+  "originals/forsman_kaxe.jpg": "Al Forsman, KAXE guide selfie (1650x1710), alternate higher-res"
+ }
+}
