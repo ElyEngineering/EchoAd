@@ -46,19 +46,25 @@ for k,(f,roi) in src.items():
     else: im=img
     crop=im[y0+pad:y0+pad+s,x0+pad:x0+pad+s]
     pil=Image.fromarray(cv2.cvtColor(crop,cv2.COLOR_BGR2RGB)).resize((OUT,OUT),Image.LANCZOS)
-    gray=ImageOps.grayscale(pil)
-    # normalize tone: equalize luminance to common mean/std
-    a=np.asarray(gray).astype(float); a=(a-a.mean())/(a.std()+1e-6)*52+128
-    gray=Image.fromarray(np.clip(a,0,255).astype('uint8'))
-    if s<375: gray=gray.filter(ImageFilter.UnsharpMask(radius=2,percent=60,threshold=2))
-    gray.save(f'square/{k}.jpg',quality=92,dpi=(300,300))
-    pil.save(f'square/{k}_color.jpg',quality=92,dpi=(300,300))
+    # COLOR normalization (no grayscale): partial gray-world white balance on the face region,
+    # then match L* mean/std in LAB so brightness/contrast agree across all 7 headshots.
+    arr=np.asarray(pil).astype(np.float32)
+    face=arr[int(OUT*0.25):int(OUT*0.65),int(OUT*0.3):int(OUT*0.7)].reshape(-1,3)
+    means=face.mean(0); target=means.mean()
+    gain=1+0.5*(target/means-1)          # 50% correction keeps natural skin warmth
+    arr=np.clip(arr*gain,0,255).astype(np.uint8)
+    lab=cv2.cvtColor(arr,cv2.COLOR_RGB2LAB).astype(np.float32)
+    L=lab[...,0]; L=(L-L.mean())/(L.std()+1e-6)*48+135; lab[...,0]=np.clip(L,0,255)
+    out=Image.fromarray(cv2.cvtColor(lab.astype(np.uint8),cv2.COLOR_LAB2RGB))
+    out=ImageEnhance.Color(out).enhance(1.05)
+    if s<375: out=out.filter(ImageFilter.UnsharpMask(radius=2,percent=60,threshold=2))
+    out.save(f'square/{k}.jpg',quality=92,dpi=(300,300))
     res[k]={'source_file':f,'face_box':[round(x),round(y),round(w),round(h)],'crop_box':[x0,y0,x0+s,y0+s],'edge_padding_px':int(pad),
             'native_square_px':s,'print_ready_1.25in_300dpi':s>=375}
     print(k,res[k])
 json.dump(res,open('square/crops.json','w'),indent=1)
-c=Image.new('L',(7*200,200),255)
+c=Image.new('RGB',(7*200,200),'white')
 for i,k in enumerate(src):
     try: c.paste(Image.open(f'square/{k}.jpg').resize((200,200)),(i*200,0))
     except: pass
-c.save('/workspace/tmp_echo/sq3.jpg')
+c.save('/workspace/tmpn/sq.jpg')

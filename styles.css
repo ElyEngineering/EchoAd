@@ -1,26 +1,33 @@
-:root{--pine:#1f3d2b;--lake:#2f4f63;--birch:#f7f3e8;--ink:#141414}
+:root{--pine:#1a6b45;--pine-dark:#14462f;--lake:#1d5f8f;--birch:#f8f4e9;--ink:#141414}
 *{box-sizing:border-box}
 html,body{margin:0;background:#d9d6cf}
 body{display:flex;justify-content:center;padding:40px 0;font-family:"Source Sans 3","Helvetica Neue",Arial,sans-serif;color:var(--ink)}
 .artboard{width:1000px;height:1600px;background:var(--birch);padding:22px;box-shadow:0 6px 30px rgba(0,0,0,.25)}
-.frame{height:100%;border:3px solid var(--pine);outline:1px solid var(--pine);outline-offset:-10px;padding:40px 52px 18px;display:flex;flex-direction:column}
-.top{text-align:center}
-.headline{font-family:"Libre Baskerville",Georgia,serif;font-weight:700;font-size:92px;line-height:1;margin:6px 0 0;letter-spacing:-1px}
+.frame{height:100%;border:3px solid var(--pine-dark);outline:1px solid var(--pine-dark);outline-offset:-10px;padding:40px 52px 18px;display:flex;flex-direction:column}
+.top{text-align:left}
+.headline{font-family:"Libre Baskerville",Georgia,serif;font-weight:700;font-size:80px;line-height:1;margin:10px 0 0;letter-spacing:-1px}
 .headline .no{color:var(--pine)}
-.sub{font-size:30px;margin:14px 0 6px;letter-spacing:.5px}
-.pines{width:600px;height:40px;color:var(--pine);display:block;margin:4px auto 0}
+.sub{font-family:"Libre Baskerville",Georgia,serif;font-style:italic;font-weight:700;font-size:27px;margin:0 0 0 34px;letter-spacing:.2px;color:#2a2a2a}
+.sub .yes{color:var(--pine);font-weight:700;font-style:normal;font-family:"Source Sans 3",Arial,sans-serif;letter-spacing:1px}
 .race h2{font-family:"Libre Baskerville",Georgia,serif;font-weight:700;font-size:28px;color:var(--lake);margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--lake)}
-.mayor{margin:34px auto 0;width:460px}
-.mayor h2{text-align:center}
-.mayor .cand{justify-content:center}
+.mayor{margin:54px 0 0}
+.mayor h2{text-align:left;border-bottom:none;padding-bottom:0;margin-bottom:12px}
+.intro{display:flex;justify-content:space-between;align-items:stretch;gap:28px;margin-top:16px}
+.intro-left{flex:none;display:flex;flex-direction:column;justify-content:flex-start}
+.mayor .cand{margin:0 0 0 18px}
+.nature{width:390px;height:279px;object-fit:cover;display:block;border:1px solid #444;border-radius:2px;margin-top:0}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:0 48px;margin-top:40px}
 .cand{display:flex;align-items:center;gap:22px;margin:0 0 26px}
 .cand img{width:108px;height:108px;object-fit:cover;display:block;border:1px solid #444;flex:none}
 .name{font-size:34px;font-weight:700;line-height:1.1}
-.bottom{margin-top:auto}
+.question{margin:auto 0 18px;text-align:center;font-size:24px;font-weight:600;color:var(--ink)}
+.question .vote{font-size:18px;font-weight:400;letter-spacing:.5px}
+.question .yesbox{display:inline-flex;align-items:center;gap:6px;margin:0 8px;padding:2px 10px 2px 6px;border:2px solid var(--pine);border-radius:6px;color:var(--pine);font-weight:700;vertical-align:-2px}
+.question .yesbox svg{width:22px;height:22px}
+.bottom{}
 .lake{position:relative;margin:0}
 .lake img{width:100%;height:400px;object-fit:cover;display:block;border:1px solid #444}
-.tagline{position:absolute;top:22px;right:26px;font-family:"Libre Baskerville",Georgia,serif;font-size:36px;font-weight:700;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6);text-align:right}
+.tagline{position:absolute;top:22px;right:26px;font-family:"Libre Baskerville",Georgia,serif;font-size:40px;font-weight:700;color:#fff;-webkit-text-stroke:1.6px rgba(10,20,15,.9);paint-order:stroke fill;text-shadow:2.5px 0 0 rgba(10,20,15,.75),-2.5px 0 0 rgba(10,20,15,.75),0 2.5px 0 rgba(10,20,15,.75),0 -2.5px 0 rgba(10,20,15,.75),1.8px 1.8px 0 rgba(10,20,15,.75),-1.8px 1.8px 0 rgba(10,20,15,.75),1.8px -1.8px 0 rgba(10,20,15,.75),-1.8px -1.8px 0 rgba(10,20,15,.75),0 4px 14px rgba(0,0,0,.75),0 0 24px rgba(0,0,0,.45);text-align:right}
 .tagline .protect{letter-spacing:1px}
 .credits{font-size:10px;line-height:1.35;margin:10px 0 2px;color:#333}
 .credits a{color:#333}

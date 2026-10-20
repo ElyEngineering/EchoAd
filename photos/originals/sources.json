@@ -14,7 +14,6 @@
    1920
   ],
   "crop": "photos/square/omerza.jpg",
-  "crop_color": "photos/square/omerza_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -26,7 +25,8 @@
    1124
   ],
   "native_crop_px": 1124,
-  "print_ready_1.25in_at_300dpi": true
+  "print_ready_1.25in_at_300dpi": true,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "campbell": {
   "name": "Angela Campbell",
@@ -42,7 +42,6 @@
    432
   ],
   "crop": "photos/square/campbell.jpg",
-  "crop_color": "photos/square/campbell_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -54,7 +53,8 @@
    332
   ],
   "native_crop_px": 326,
-  "print_ready_1.25in_at_300dpi": false
+  "print_ready_1.25in_at_300dpi": false,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "forsman": {
   "name": "Al Forsman",
@@ -70,7 +70,6 @@
    418
   ],
   "crop": "photos/square/forsman.jpg",
-  "crop_color": "photos/square/forsman_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -82,7 +81,8 @@
    294
   ],
   "native_crop_px": 294,
-  "print_ready_1.25in_at_300dpi": false
+  "print_ready_1.25in_at_300dpi": false,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "zupec": {
   "name": "Mark Zupek (ballot: Mark Zupec)",
@@ -99,7 +99,6 @@
    155
   ],
   "crop": "photos/square/zupec.jpg",
-  "crop_color": "photos/square/zupec_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -111,7 +110,8 @@
    106
   ],
   "native_crop_px": 84,
-  "print_ready_1.25in_at_300dpi": false
+  "print_ready_1.25in_at_300dpi": false,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "hornstein": {
   "name": "Steve Hornstein",
@@ -127,7 +127,6 @@
    882
   ],
   "crop": "photos/square/hornstein.jpg",
-  "crop_color": "photos/square/hornstein_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -139,7 +138,8 @@
    850
   ],
   "native_crop_px": 850,
-  "print_ready_1.25in_at_300dpi": true
+  "print_ready_1.25in_at_300dpi": true,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "kannas": {
   "name": "John Kannas",
@@ -156,7 +156,6 @@
    133
   ],
   "crop": "photos/square/kannas.jpg",
-  "crop_color": "photos/square/kannas_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -168,7 +167,8 @@
    86
   ],
   "native_crop_px": 84,
-  "print_ready_1.25in_at_300dpi": false
+  "print_ready_1.25in_at_300dpi": false,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "weise": {
   "name": "Joe Weise",
@@ -185,7 +185,6 @@
    252
   ],
   "crop": "photos/square/weise.jpg",
-  "crop_color": "photos/square/weise_color.jpg",
   "crop_px": [
    1200,
    1200
@@ -197,36 +196,64 @@
    112
   ],
   "native_crop_px": 104,
-  "print_ready_1.25in_at_300dpi": false
- },
- "canoe_banner": {
-  "name": "Canoe by Section Twelve Lake",
-  "source_page": "https://commons.wikimedia.org/wiki/File:Canoe_by_Section_Twelve_Lake.jpg",
-  "source_label": "Wikimedia Commons",
-  "credit": "Daniel Ziegler",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "original_file": "originals/canoe_section_twelve_lake.jpg",
-  "original_px": [
-   3456,
-   5184
-  ],
-  "derived": "photos/canoe_banner.jpg",
-  "derived_px": [
-   2400,
-   1041
-  ],
-  "crop_box_in_original": [
-   0,
-   3200,
-   3456,
-   4700
-  ],
-  "print_ready": true,
-  "note": "Superior National Forest / Boundary Waters, taken 15 May 2020. Attribution required; derivative crop shares CC BY-SA 4.0."
+  "print_ready_1.25in_at_300dpi": false,
+  "crop_mode": "color, partial gray-world white balance + matched L* brightness/contrast"
  },
  "_extra_originals": {
   "originals/omerza_city.jpg": "Heidi Omerza, City of Ely council page (400x503), alternate",
   "originals/forsman_kaxe.jpg": "Al Forsman, KAXE guide selfie (1650x1710), alternate higher-res"
+ },
+ "canoe_banner": {
+  "name": "Portage trail to Horseshoe lake ... Dad and Dan F paddling (panoramio)",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Portage_trail_to_Horseshoe_lake,_Our_site_in_the_background._Dad_and_Dan_F_paddling_-_panoramio.jpg",
+  "original_source": "https://web.archive.org/web/20161114052653/http://www.panoramio.com/photo/42145309",
+  "source_label": "Wikimedia Commons (from Panoramio)",
+  "credit": "daakrolb (Panoramio user)",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "original_file": "originals/canoe_horseshoe_lake_bwca.jpg",
+  "original_px": [
+   3888,
+   2592
+  ],
+  "derived": "photos/canoe_banner.jpg",
+  "derived_px": [
+   2400,
+   1090
+  ],
+  "crop_box_in_original": [
+   0,
+   720,
+   3888,
+   2487
+  ],
+  "edits": "cropped, saturation +6%; not flipped",
+  "print_ready": true,
+  "location": "Horseshoe Lake, Boundary Waters Canoe Area Wilderness, Lake County, MN (GPS 47.882247, -91.436934, about 20 miles east of Ely)",
+  "note": "Taken 16 Sep 2010. Attribution + share-alike required. Shows 2 identifiable paddlers (amateur photo); for a political print ad, consider whether a model release matters."
+ },
+ "sunset_mayor_area": {
+  "name": "Ely sunset",
+  "credit": "Levi (own photo)",
+  "source": "Levi's own photo, supplied directly",
+  "license": "Owner-supplied for this ad",
+  "original_file": "originals/ely_sunset_levi.jpg",
+  "original_px": [
+   4032,
+   3024
+  ],
+  "orientation_note": "Original has EXIF orientation 3 (180 deg); crop box is on the exif_transposed image",
+  "crop_box_in_original": [
+   1660,
+   18,
+   3676,
+   1460
+  ],
+  "derived": "photos/sunset.jpg",
+  "derived_px": [
+   2016,
+   1442
+  ],
+  "print_ready": true
  }
 }
