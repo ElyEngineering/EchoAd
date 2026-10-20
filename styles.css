@@ -9,7 +9,7 @@ body{display:flex;justify-content:center;padding:40px 0;font-family:"Source Sans
 .headline{color:#000;-webkit-text-stroke:1.5px #fff;paint-order:stroke fill;text-shadow:0 0 2px #fff}
 .headline .no{color:#000}
 .sub{font-family:"Libre Baskerville",Georgia,serif;font-style:italic;font-weight:700;font-size:27px;margin:0 0 0 34px;letter-spacing:.2px;color:#2a2a2a}
-.sub .yes{color:var(--pine);font-weight:700;font-style:italic;font-family:"Source Sans 3",Arial,sans-serif;letter-spacing:1px}
+.sub .yes{color:#000;font-weight:700;font-style:italic;font-family:"Libre Baskerville",Georgia,serif;font-size:1.3em;letter-spacing:0}
 .race h2{font-family:"Libre Baskerville",Georgia,serif;font-weight:700;font-size:28px;color:var(--lake);margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid var(--lake)}
 .mayor{margin:54px 0 0}
 .mayor h2{text-align:left;border-bottom:none;padding-bottom:0;margin-bottom:12px}
